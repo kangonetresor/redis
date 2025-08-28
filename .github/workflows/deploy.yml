@@ -36,4 +36,4 @@ jobs:
           docker pull kangotrex/redis:latest
       - name: Run Docker container
         run: |
-          docker run -d --name redis-container -p 6379:6379 kangotrex/redis:latest
+          docker run -d --name redis-container-1 -p 6379:6379 kangotrex/redis:latest
